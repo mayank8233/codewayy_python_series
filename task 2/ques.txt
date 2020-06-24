@@ -1,0 +1,16 @@
+Q.1)	why is list used in python?
+Lists are one of the four built-in data structures in Python, together with tuples, dictionaries, and sets. They are used to store an ordered collection of items, which might be of different types but usually they aren't. Commas separate the elements that are contained within a list and enclosed in square brackets.
+
+Q.2)	How do lists and sets differ?
+List is a type of ordered collection that maintains the elements in insertion order while Set is a type of unordered collection so elements are not maintained any order. List allows duplicates while Set doesn't allow duplicate elements .
+
+Q.3)	Application of dictionaries with a real world example.
+Dictionaries can be used for ;
+
+a.)	Data storage - so instead of remembering that a person’s name is at list index 0, and the address is at list index 1 - we can create a dictionary with keys of 	‘name’ and ‘address’ - bingo - your code is more readable.
+b.)	literally maps : Say you are building a map of objects on a game field - so each object has an (x,y) co-ordinate. Instead of a big list which is mostly empty 	showing each of the objects - you have a dictionary with the key being a tuple of the (x,y) co-ordinate, and the value being the object at that location.
+c.)	You can use a dictionary as a jump table to emulate a switch type statement.
+d.)	You can use a dictionary to easily count the content of a list.
+e.)	You can use a dictionary to build indexes of content.
+
+Also Python is effectively built on dictionaries - all classes (even built in ones) - are dictionaries of data and methods, so every time you use an object - even an integer or a string - you are using a dictionary.
